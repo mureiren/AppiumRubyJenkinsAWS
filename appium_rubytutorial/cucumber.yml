@@ -1,0 +1,2 @@
+APIDemos: -t @APIDemos --format html --out report.html --format pretty
+any: -t @C1 --format html --out report.html --format pretty

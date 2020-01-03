@@ -1,0 +1,111 @@
+[
+  {
+    "uri": "features/APIDemos.feature",
+    "id": "testing-the-api-demos-app",
+    "keyword": "Feature",
+    "name": "Testing the API Demos app",
+    "description": "  In order to test the API Demo app\n  As a user\n  I want to able to test the toggle, checkbox and page navigation functionalities within the app",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@APIDemos",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "testing-the-api-demos-app;to-verify-the-user-can-successfully-turn-on-the-switch-preference",
+        "keyword": "Scenario",
+        "name": "To verify the user can successfully Turn on the switch preference",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@APIDemos",
+            "line": 1
+          },
+          {
+            "name": "@C1",
+            "line": 8
+          },
+          {
+            "name": "@Smoke",
+            "line": 8
+          },
+          {
+            "name": "@Regression",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57579433900
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user is on \"prefpage\"",
+            "line": 10,
+            "output": [
+              "",
+              ""
+            ],
+            "match": {
+              "location": "features/step_definitions/APIDemo.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3549689400
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user clicks \"togbutton\"",
+            "line": 11,
+            "output": [
+              "#<Appium::TouchAction:0x0000000008663868>"
+            ],
+            "match": {
+              "location": "features/step_definitions/APIDemo.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2205235200
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "toggle button is switched on",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/APIDemo.rb:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220070900
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1976340800
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
