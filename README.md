@@ -30,7 +30,7 @@ cucumber features/APIDemos.feature -t @C1 DEVICE_NAME='HUAWEI Y6 2019'
 ``` 
 
 ### Run tests on  AWS:
-You need to have an aws account created. Instructions on how to create a project to run tests on aws can be found at. #Head to Deploying Appium/TestNG tests to Device Farm section# 
+You need to have an aws account created. Instructions on how to create a project to run tests on aws can be found at. #Deploying Appium/TestNG tests to Device Farm# section
 at https://aws.amazon.com/blogs/mobile/testing-mobile-apps-with-cucumber-and-appium-through-testng-on-aws-device-farm/ to get started.
 
 ### N.B The instructions are based on client language Java.In my case i had to select Appium Ruby from Test dropdown under the "configure your test"section.
