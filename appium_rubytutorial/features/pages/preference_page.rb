@@ -6,7 +6,6 @@ class PreferencePage
   end
 
   def toggleswitchbutton
-    wait_for{@driver.find_element(:id, 'android:id/switch_widget').displayed?}
     b = @driver.find_element(:id, 'android:id/switch_widget')
     tap_action = Appium::TouchAction.new.tap(element: b, x:0.5, y:0.5)
     tap_action.perform
