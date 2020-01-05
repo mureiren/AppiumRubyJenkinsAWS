@@ -49,7 +49,7 @@ https://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-android-
 ![AWSdevicefarm](https://user-images.githubusercontent.com/53050573/71786884-dcc52280-3008-11ea-8bbb-ed555aa95599.PNG)
 
 
-## AWS devicefarm Testrun report
+## AWS devicefarm Test run report
 ![AWS_testrun_results](https://user-images.githubusercontent.com/53050573/71787052-8a850100-300a-11ea-811f-bbf9712ba58e.PNG)
 
 
