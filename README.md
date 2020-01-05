@@ -25,15 +25,15 @@ Alternativley if you want to run using features directory of given feature file 
 cucumber features/example.feature -t @tag DEVICE_NAME='your device name' in my i case used
 cucumber features/APIDemos.feature -t @C1 DEVICE_NAME='HUAWEI Y6 2019'
 
-###N.B the tag name can be anything that you would have specified in your feature file. In my case i used C1.
+## N.B the tag name can be anything that you would have specified in your feature file. In my case i used C1.
 
-```
+``` 
 
 ### Run tests on  AWS:
 You need to have an aws account created. Instructions on how to create a project to run tests on aws can be found at. #Head to Deploying Appium/TestNG tests to Device Farm section# 
 at https://aws.amazon.com/blogs/mobile/testing-mobile-apps-with-cucumber-and-appium-through-testng-on-aws-device-farm/ to get started.
 
-## N.B The instructions are based on client language Java.In my case i had to select Appium Ruby from Test dropdown under the "configure your test"section.
+### N.B The instructions are based on client language Java.In my case i had to select Appium Ruby from Test dropdown under the "configure your test"section.
 Remember to include the same  test commands used to run tests locally in YAML spec file. Continue to follow instruction until when prompted to run tests.
 
 If you are using Appium and Ruby as a client language to test on Android devices then you might want to follow the steps that are specific for Ruby:
